@@ -10,7 +10,7 @@ public class Repository {
         String sql = "SELECT * FROM student";
 
         try {
-            // Explicitly load the driver to fix "No suitable driver"
+         
             Class.forName("org.sqlite.JDBC");
 
             try (Connection conn = DriverManager.getConnection(URL);
