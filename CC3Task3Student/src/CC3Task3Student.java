@@ -9,7 +9,7 @@ public class CC3Task3Student {
         Repository repo = new Repository();
         List<Student> list = repo.getAllStudents();
 
-        // Exact header formatting
+        
         String headFormat = "%-4s | %-12s | %-12s | %-12s | %-3s | %-6s | %-8s | %-2s | %-28s | %-15s | %-12s%n";
         
         System.out.printf(headFormat, 
